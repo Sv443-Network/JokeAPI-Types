@@ -12,7 +12,7 @@ export interface JokeFlags {
 }
 
 export interface JokeBase {
-    category: JokeCategory;
+    categories: JokeCategory[];
     type: JokeType;
     flags: JokeFlags;
     id: number;
