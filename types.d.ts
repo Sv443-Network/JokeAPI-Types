@@ -3,6 +3,7 @@ export type JokeType = "single" | "twopart";
 export type JokeCategory = "Misc" | "Programming" | "Dark" | "Pun" | "Spooky" | "Christmas";
 
 export interface JokeFlags {
+    [key: string]: boolean;
     nsfw: boolean;
     racist: boolean;
     religious: boolean;
@@ -11,11 +12,14 @@ export interface JokeFlags {
     explicit: boolean;
 }
 
+export type LangCode<T extends string = "en"> = T;
+
 export interface JokeBase {
     categories: JokeCategory[];
     type: JokeType;
     flags: JokeFlags;
     id: number;
+    lang: LangCode;
 }
 
 export interface SingleJoke extends JokeBase {
@@ -25,8 +29,8 @@ export interface SingleJoke extends JokeBase {
 
 export interface TwopartJoke extends JokeBase {
     type: "twopart";
-    setup: string;
-    delivery: string;
+    joke: string;
+    joke2: string;
 }
 
 export type Joke = SingleJoke | TwopartJoke;
