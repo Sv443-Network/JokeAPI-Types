@@ -10,7 +10,7 @@ export type JokeCategory =
   | "absurd"
   | "animal"
   | "christmas"
-  | "cultural"
+  | "culture"
   | "dad-joke"
   | "dark"
   | "intellectual"
