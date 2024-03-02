@@ -20,6 +20,7 @@ export type JokeCategory =
   | "one-liner"
   | "programming"
   | "pun"
+  | "question-and-answer"
   | "regional"
   | "sarcasm"
   | "spooky"
@@ -55,26 +56,11 @@ export type JokeFlag =
  */
 export type LangCode<TCode extends string = "en-US"> = TCode;
 
-/** Shared properties for the different joke types */
-type JokeBase = {
+/** A joke object */
+export type Joke = {
   categories: JokeCategory[];
-  type: JokeType;
   flags: JokeFlag[] | null;
   id: string;
   lang: LangCode;
+  text: string;
 };
-
-/** A joke object where the joke is a single string (that can contain line breaks) */
-export type SingleJoke = JokeBase & {
-  type: "single";
-  joke: string;
-};
-
-/** A joke object where the joke is split into two parts (which each can contain line breaks) */
-export type TwopartJoke = JokeBase & {
-  type: "twopart";
-  parts: [string, string];
-};
-
-/** A joke object, either of type single or twopart */
-export type Joke = SingleJoke | TwopartJoke;
