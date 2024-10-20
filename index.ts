@@ -1,1 +1,2 @@
-export * from "./jokes";
+export * from "./data.js";
+export * from "./jokes.js";
