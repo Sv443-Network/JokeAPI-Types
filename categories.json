@@ -9,15 +9,15 @@
     "dev_description_en": "Jokes involving animals.",
     "emoji": "🐧"
   },
-  "christmas": {
-    "dev_name_en": "Christmas",
-    "dev_description_en": "Jokes about Christmas and the holiday season.",
-    "emoji": "🎄"
+  "chuck-norris": {
+    "dev_name_en": "Chuck Norris",
+    "dev_description_en": "Jokes about the legendary Chuck Norris or that follow the same format.",
+    "emoji": "🥋"
   },
   "culture": {
     "dev_name_en": "Culture",
     "dev_description_en": "Jokes about culture and cultural differences.",
-    "emoji": "👘"
+    "emoji": "🎭"
   },
   "dad-joke": {
     "dev_name_en": "Dad Joke",
@@ -29,15 +29,30 @@
     "dev_description_en": "Jokes that are dark, offensive, and often demeaning.",
     "emoji": "👹"
   },
+  "economy": {
+    "dev_name_en": "Economy",
+    "dev_description_en": "Jokes about the economy, finance, and money.",
+    "emoji": "💰"
+  },
+  "holiday-season": {
+    "dev_name_en": "Holiday Season",
+    "dev_description_en": "Jokes about the holiday season, Christmas, New Year's, etc.",
+    "emoji": "🎄"
+  },
   "intellectual": {
     "dev_name_en": "Intellectual",
-    "dev_description_en": "Jokes that require a certain level of intelligence or knowledge to understand.",
+    "dev_description_en": "Jokes that may require a higher level of knowledge to understand.",
     "emoji": "🧠"
   },
   "knock-knock": {
     "dev_name_en": "Knock-Knock",
-    "dev_description_en": "Jokes that follow the knock-knock format.",
+    "dev_description_en": "Jokes that follow the \"knock-knock - who's there?\" format.",
     "emoji": "🚪"
+  },
+  "long": {
+    "dev_name_en": "Long",
+    "dev_description_en": "Jokes or funny stories that are longer and more detailed.",
+    "emoji": "📖"
   },
   "movies": {
     "dev_name_en": "Movies",
@@ -53,6 +68,11 @@
     "dev_name_en": "One-Liner",
     "dev_description_en": "Jokes that are short and to the point.",
     "emoji": "📝"
+  },
+  "politics": {
+    "dev_name_en": "Politics",
+    "dev_description_en": "Jokes about politics, politicians and political issues.",
+    "emoji": "🏛️"
   },
   "programming": {
     "dev_name_en": "Programming",
@@ -73,6 +93,11 @@
     "dev_name_en": "Sarcasm",
     "dev_description_en": "Jokes that are sarcastic or ironic.",
     "emoji": "🙄"
+  },
+  "science": {
+    "dev_name_en": "Science",
+    "dev_description_en": "Jokes about science and scientific concepts.",
+    "emoji": "🔬"
   },
   "spooky": {
     "dev_name_en": "Spooky",

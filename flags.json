@@ -1,15 +1,15 @@
 {
   "body-shaming": {
     "dev_name_en": "body-shaming",
-    "dev_description_en": "Jokes that make fun of someone's body type or appearance."
+    "dev_description_en": "Jokes that make fun of body types or appearances."
   },
   "cultural-insensitivity": {
     "dev_name_en": "cultural-insensitivity",
-    "dev_description_en": "Jokes that make fun of a culture or cultural group."
+    "dev_description_en": "Jokes that make fun of cultures or cultural groups."
   },
   "drug-use": {
     "dev_name_en": "drug-use",
-    "dev_description_en": "Jokes that reference or encourage drug use."
+    "dev_description_en": "Jokes that reference drug use."
   },
   "explicit-language": {
     "dev_name_en": "explicit-language",
@@ -17,15 +17,11 @@
   },
   "gender-and-sexuality": {
     "dev_name_en": "gender-and-sexuality",
-    "dev_description_en": "Jokes that make fun of gender identity or sexual orientation."
+    "dev_description_en": "Jokes involving gender identity or sexual orientation."
   },
   "mature-content": {
     "dev_name_en": "mature-content",
-    "dev_description_en": "Jokes that are directed at a mature audience."
-  },
-  "politics": {
-    "dev_name_en": "politics",
-    "dev_description_en": "Jokes that reference politicians or make fun of politics."
+    "dev_description_en": "Jokes directed at mature audiences."
   },
   "racial-insensitivity": {
     "dev_name_en": "racial-insensitivity",
@@ -41,10 +37,10 @@
   },
   "stereotypes": {
     "dev_name_en": "stereotypes",
-    "dev_description_en": "Jokes that make fun of a group of people based on stereotypes."
+    "dev_description_en": "Jokes that make fun of groups of people based on stereotypes."
   },
   "violence": {
     "dev_name_en": "violence",
-    "dev_description_en": "Jokes that reference or encourage violence."
+    "dev_description_en": "Jokes that reference violence."
   }
 }
